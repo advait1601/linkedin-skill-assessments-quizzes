@@ -555,4 +555,11 @@
 - [x] `201`
 - [ ] `204`
 
+#### Q72. Which HTTP method is typically used for retrieving data from a REST API in GitHub?
+
+- [ ] POST
+- [ ] PUT
+- [x] GET
+- [ ] DELETE
+
 [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
