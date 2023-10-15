@@ -14,7 +14,7 @@
 - [ ] RDS for MySQL
 - [x] DynamoDB
 
-#### Q3. Your database is an RDS instance running SQL Server with Multi-AZ replication and you have several older .NET console utilities that perform database operations every 15 seconds. When the cluster has to switch the primary database server to the secondary AZ, the .NET utilities start to report connection failures to the database although other applications are able to access the database. How do you correct this problem?
+#### Q3. Your database is an RDS instance running SQL Server with Multi-AZ replication, and you have several older .NET console utilities that perform database operations every 15 seconds. When the cluster has to switch the primary database server to the secondary AZ, the .NET utilities start to report connection failures to the database, although other applications are able to access the database. How do you correct this problem?
 
 - [ ] Use the RDS console to force a reboot of the database instance so that the primary server becomes the master server again.
 - [ ] The server running the .NET utilities is caching the DNS lookup on the database cluster address. Flush the DNS cache of the server and force the C# utilities to open new connections to the database.
@@ -29,7 +29,6 @@
 - [ ] CodeBuild
 
 #### Q5. Which AWS service complies with the standards outlined in Payment Card Industry Data Security Standard (PCI DSS) Level 1 for the handling and transmission of credit card data?
-
 - [ ] API Gateway
 - [x] all of these answers
 - [ ] Simple Queue Service (SQS)
