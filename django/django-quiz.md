@@ -764,3 +764,10 @@ class Book(models.Model):
 - [ ] There's less chance of introducing bugs since SQLite already works out of the box
 - [ ] It's a bad idea and could lead to issues down the road
 - [x] It's fine, you just need to keep both instances synchronized
+
+#### Q82. You are a developer working on a Django project hosted on GitHub. You want to implement a new feature and maintain it separately from the main codebase until it's thoroughly tested and ready for deployment. Which of the following GitHub features or workflows would you choose to achieve this?
+
+- [x] Fork the repository and create a new branch for the feature
+- [ ] Create a new repository for the feature
+- [ ] Use Git submodules to manage the feature separately
+- [ ] Create a new organization and move the feature code there
